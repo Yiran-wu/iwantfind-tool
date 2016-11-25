@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f84de845-458c-4365-ac17-4925604338f6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iwantfind-tool.iml" afterPath="$PROJECT_DIR$/iwantfind-tool.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/iwantfind/ASAnalyser.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/iwantfind/ASAnalyser.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/run.sh" afterPath="$PROJECT_DIR$/script/run.sh" />
     </list>
     <ignored path="iwantfind-tool.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,10 +65,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ASAnalyser.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ASAnalyser.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/iwantfind/ASAnalyser.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45454547">
+            <state vertical-scroll-proportion="0.0">
               <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding>
                 <element signature="e#68#99#0" expanded="true" />
@@ -91,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="run.sh" pinned="false" current-in-tab="false">
+      <file leaf-file-name="run.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/script/run.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.6666666">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.125">
+              <caret line="5" column="182" selection-start-line="5" selection-start-column="182" selection-end-line="5" selection-end-column="182" />
               <folding />
             </state>
           </provider>
@@ -145,11 +143,11 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/com/iwantfind/Analyser.scala" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/script/run.sh" />
         <option value="$PROJECT_DIR$/src/main/scala/com/iwantfind/CollectAnalyser.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/iwantfind/DBUtils.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/iwantfind/HDFSUtils.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/iwantfind/ASAnalyser.scala" />
+        <option value="$PROJECT_DIR$/script/run.sh" />
       </list>
     </option>
   </component>
@@ -1021,12 +1019,12 @@
       <workItem from="1479628091806" duration="361000" />
       <workItem from="1479630066103" duration="3541000" />
       <workItem from="1479647900108" duration="438000" />
-      <workItem from="1480078077491" duration="3950000" />
+      <workItem from="1480078077491" duration="4011000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28679000" />
+    <option name="totallyTimeSpent" value="28740000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -1433,14 +1431,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script/run.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.6666666">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/iwantfind/CollectAnalyser.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.11111">
@@ -1459,11 +1449,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/iwantfind/ASAnalyser.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45454547">
+        <state vertical-scroll-proportion="0.0">
           <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
             <element signature="e#68#99#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/run.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.125">
+          <caret line="5" column="182" selection-start-line="5" selection-start-column="182" selection-end-line="5" selection-end-column="182" />
+          <folding />
         </state>
       </provider>
     </entry>
