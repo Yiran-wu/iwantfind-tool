@@ -201,5 +201,6 @@
     <orderEntry type="library" name="Maven: org.apache.hadoop:hadoop-yarn-common:2.6.0" level="project" />
     <orderEntry type="library" name="Maven: com.sun.jersey:jersey-client:1.9" level="project" />
     <orderEntry type="library" name="Maven: org.apache.hadoop:hadoop-mapreduce-client-jobclient:2.6.0" level="project" />
+    <orderEntry type="library" name="scala-sdk-2.10.4 (2)" level="application" />
   </component>
 </module>

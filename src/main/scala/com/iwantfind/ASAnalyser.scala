@@ -29,7 +29,7 @@ object ASAnalyser {
     val x = hdfs.du ( path)
 
     // 2. 统计总条数, 总日志行数
-    val sc = new SparkContext ("local", "test", new SparkConf())
+    val sc = new SparkContext ( new SparkConf())
     val fileSet = sc.textFile(path)
     val lineCount = fileSet.count
 
