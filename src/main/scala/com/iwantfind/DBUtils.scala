@@ -12,6 +12,7 @@ import java.sql.Connection
 
 
 /** Computes an approximation to pi */
+// TODO not implement
 object DBUtils {
   val url = "jdbc:mysql://localhost:3306/test"
   val username = "root"

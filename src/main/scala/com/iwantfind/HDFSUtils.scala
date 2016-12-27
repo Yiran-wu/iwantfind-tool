@@ -25,25 +25,11 @@ class HDFSUtils(conf: Configuration) {
   }
 
   def du(xpath: String) : Long = {
-
     var size : Long = 0
     val path = new Path(xpath)
     if (fileSystem.exists(path)) {
-      var dir = fileSystem.getFileStatus(path)
-
-      if (!dir.isDirectory()) {
-//        println( dir.toString)
-//        println(dir.getLen)
-        size = dir.getLen
-      } else {
-        val allFiles = fileSystem.listStatus(path);
-        for ( p <- allFiles) {
-          if (!p.isSymlink) {
-            size = size +  du(p.getPath.toString)
-//            println(p.getPath.toString + "====" + nsize + "===" + size)
-          }
-        }
-      }
+      var dir = fileSystem.getContentSummary(path)
+      dir.getLength
     }
 
     size
