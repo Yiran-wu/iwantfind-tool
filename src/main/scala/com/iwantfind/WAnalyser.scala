@@ -60,7 +60,7 @@ object WAnalyser {
 
     sc.stop()
 
-    println(s"Max = ${max.toMap} , min = ${min.toMap}, sub = $sub" )
+    println(s"关注别人最多用户 = ${max.toMap} , 关注别人最少用户 = ${min.toMap}, 相差 = $sub" )
     println(s"被关注最多: ")
     var countIdx = 0
     for ( i  <- 0 until top10.length) {
@@ -71,7 +71,7 @@ object WAnalyser {
   }
 
   def main(args: Array[String]) {
-    val path = "/Users/wuyiran/Documents/workspace/git_workspace/iwantfind-tool/new2.txt";
+    val path = "/home/YiRan/workspace/iwantfind-tool/new2.txt";
     val ret = process(path)
   }
 
