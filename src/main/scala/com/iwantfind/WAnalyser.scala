@@ -71,7 +71,7 @@ object WAnalyser {
   }
 
   def main(args: Array[String]) {
-    val path = "/home/YiRan/workspace/iwantfind-tool/new2.txt";
+    val path = "/home/YiRan/workspace/iwantfind-tool/new2.json";
     val ret = process(path)
   }
 
