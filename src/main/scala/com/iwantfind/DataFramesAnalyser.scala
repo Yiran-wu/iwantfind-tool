@@ -45,5 +45,6 @@ object DataFramesAnalyser {
     println("关注别人最多用户 =" + max.get(0) + " -> " + max.get(1) +", 关注别人最少用户 = " + min.get(0) + " -> " + min.get(1) + ", 相差 = " + sub  )
     t2.foreach(println)
     println("s总用户数：" + usernum)
+    spark.stop()
   }
 }

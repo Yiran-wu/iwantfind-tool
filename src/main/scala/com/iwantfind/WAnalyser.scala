@@ -39,11 +39,10 @@ object WAnalyser {
     val vdata = fileSet.map( line => {
         val json = parseJSON(line)
         (json.id, json.total_number.toInt)
-    }).sortBy(_._2, false)
-    val max = vdata.take(1);
-    val min = vdata.takeOrdered(1)
+    }).sortBy(_._2, true)
+    val min = vdata.take(1);
+    val max = vdata.takeOrdered(1)(Ordering[Int].reverse.on(x => x._2))
     val sub = max.apply(0)._2 - min.apply(0)._2
-
 
     // 3.统计目前数据中被关注最多的10个用户（需要去重）
     val topUser = fileSet.flatMap(line => {
